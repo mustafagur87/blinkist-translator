@@ -1,0 +1,27 @@
+{
+  "name": "blinkist-translator",
+  "version": "1.0.0",
+  "description": "A word translator for Blinkist mobile app - highlight text and translate from German/English to English and Turkish",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "axios": "^1.6.0",
+    "react-native-dotenv": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0"
+  }
+}
